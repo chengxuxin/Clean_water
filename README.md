@@ -1,4 +1,7 @@
 # Clean_water
+first unzip CleanWaterDataset
+
+
 run generate_dataset_index.py first to generate training and testing datasets.
 
 run clean_water.py to train the model.
