@@ -29,10 +29,12 @@ model.compile(loss=categorical_crossentropy,
               metrics=['accuracy'])
 
 batch_size = 16
-epochs = 32
+epochs = 40
 model.fit(train_x, train_y,
           batch_size=batch_size,
           epochs=epochs)
+
+model.save('model1.h5')
 
 test_x = np.load('test_input.npy')
 test_y = np.load('test_label.npy')
