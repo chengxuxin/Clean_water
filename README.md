@@ -14,7 +14,7 @@ python clean_water.py
 ```
 
 3. Evaluate trained results:
-``shell script
+```shell script
 python evaluate.py
 ```
 
