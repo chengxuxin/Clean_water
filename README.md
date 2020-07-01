@@ -10,9 +10,11 @@ generate_dataset_index.py
 
 2. Train the model:
 ```shell script
-python clean_water.py```
+python clean_water.py
+```
 
 3. Evaluate trained results:
 ``shell script
-python evaluate.py```
+python evaluate.py
+```
 
