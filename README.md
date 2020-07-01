@@ -3,10 +3,16 @@ first unzip CleanWaterDataset
 
 change directory in generate_dataset_index.py
 
+1. Generate training and testing datasets.
+```shell script
+generate_dataset_index.py
+```
 
-run generate_dataset_index.py first to generate training and testing datasets.
+2. Train the model:
+```shell script
+python clean_water.py```
 
-run clean_water.py to train the model.
-
-run evaluate.py to observe trained results.
+3. Evaluate trained results:
+``shell script
+python evaluate.py```
 
